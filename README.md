@@ -38,7 +38,7 @@ After that, generate your image lists
 ```
 python dataset/flist.py
 ```
-The update file paths is in 
+The updated file paths is in 
 ```
 --flist/dataset/train.flist 
 --flist/dataset/train_gt.flist 
