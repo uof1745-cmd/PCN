@@ -12,8 +12,20 @@ This code contains two versions of the hyper-parameters. The first one is the im
 * Pytorch 1.5
 
 ## Dataset
-For training the network,  you need to download the perspective dataset [Places2](http://places2.csail.mit.edu/download.html) or [Coco](https://cocodataset.org/). Then, generate your fisheye dataset.
-
+For training the network,  you need to download the perspective dataset [Places2](http://places2.csail.mit.edu/download.html) or [Coco](https://cocodataset.org/). Then, move the downloaded images to
+```
+data_prepare\picture
+```
+run
+```
+python data_prepare/get_dataset.py
+```
+to generate your fisheye dataset. The generated fisheye images and new GT will be placed in 
+```
+dataset\data\train  or dataset\data\test
+dataset\gt\train or dataset\gt\test
+```
+1
 ## Training
 Before training, make sure that the fisheye image has been placed in 
 ```
