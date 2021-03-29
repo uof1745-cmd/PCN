@@ -14,7 +14,7 @@ This code contains two versions of the hyper-parameters. The first one is the im
 ## Dataset
 For training the network,  you need to download the perspective dataset [Places2](http://places2.csail.mit.edu/download.html) or [Coco](https://cocodataset.org/). Then, move the downloaded images to
 ```
---data_prepare\picture
+--data_prepare/picture
 ```
 run
 ```
@@ -22,11 +22,11 @@ python data_prepare/get_dataset.py
 ```
 to generate your fisheye dataset. The generated fisheye images and new GT will be placed in 
 ```
---dataset\data\train 
---dataset\gt\train  
+--dataset/data/train 
+--dataset/gt/train  
 or 
---dataset\data\test
---dataset\gt\test
+--dataset/data/test
+--dataset/gt/test
 ```
 
 ## Training
@@ -53,7 +53,7 @@ python train.py
 If you want to use our pre-train model, you can download [here](https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw). Extraction code: zv83
 Put the pre-trained model in 
 ```
---FISH-Net\release_model\pennet4_dataset_square256
+--FISH-Net/release_model/pennet4_dataset_square256
 ```
 
 placed test fisheye images and corresponding GT(not necessary, but can be empty. You can placed the fisheye images to take up position.) in 
