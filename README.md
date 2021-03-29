@@ -14,7 +14,7 @@ This code contains two versions of the hyper-parameters. The first one is the im
 ## Dataset
 For training the network,  you need to download the perspective dataset [Places2](http://places2.csail.mit.edu/download.html) or [Coco](https://cocodataset.org/). Then, move the downloaded images to
 ```
-data_prepare\picture
+--data_prepare\picture
 ```
 run
 ```
@@ -22,8 +22,11 @@ python data_prepare/get_dataset.py
 ```
 to generate your fisheye dataset. The generated fisheye images and new GT will be placed in 
 ```
-dataset\data\train  or  dataset\data\test
-dataset\gt\train  or  dataset\gt\test
+--dataset\data\train 
+--dataset\gt\train  
+or 
+--dataset\data\test
+--dataset\gt\test
 ```
 
 ## Training
