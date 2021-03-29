@@ -22,10 +22,10 @@ python data_prepare/get_dataset.py
 ```
 to generate your fisheye dataset. The generated fisheye images and new GT will be placed in 
 ```
-dataset\data\train  or dataset\data\test
-dataset\gt\train or dataset\gt\test
+dataset\data\train  or  dataset\data\test
+dataset\gt\train  or  dataset\gt\test
 ```
-1
+
 ## Training
 Before training, make sure that the fisheye image has been placed in 
 ```
