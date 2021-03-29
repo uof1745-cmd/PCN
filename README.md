@@ -51,7 +51,7 @@ python train.py
 ```
 
 ## Testing
-If you want to use our pre-train model, you can download here.
+If you want to use our pre-train model, you can download [here](链接：https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw). Extraction code: zv83
 
 Put the pre-train model in 
 ```
