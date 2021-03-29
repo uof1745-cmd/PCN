@@ -51,12 +51,13 @@ python train.py
 
 ## Testing
 If you want to use our pre-train model, you can download [here](https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw). Extraction code: zv83
+
 Put the pre-trained model in 
 ```
 --FISH-Net/release_model/pennet4_dataset_square256
 ```
 
-placed test fisheye images and corresponding GT(not necessary, but can be empty. You can placed the fisheye images to take up position.) in 
+Place test fisheye images and corresponding GT(not necessary, but can be empty. You can placed the fisheye images to take up position.) in 
 ```
 --dataset/data/test
 --dataset/gt/test
