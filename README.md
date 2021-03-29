@@ -32,17 +32,17 @@ or
 ## Training
 Before training, make sure that the fisheye image has been placed in 
 ```
-dataset/data/train
+--dataset/data/train
 ```
 
 as well as corresponding GT is in 
 ```
-dataset/gt/train
+--dataset/gt/train
 ```
 Update file paths in 
 ```
-flist/dataset/train.flist 
-flist/dataset/train_gt.flist 
+--flist/dataset/train.flist 
+--flist/dataset/train_gt.flist 
 ```
 
 run
@@ -55,22 +55,22 @@ If you want to use our pre-train model, you can download here.
 
 Put the pre-train model in 
 ```
-FISH-Net\release_model\pennet4_dataset_square256
+--FISH-Net\release_model\pennet4_dataset_square256
 ```
 
 placed test fisheye images in 
 ```
-dataset/data/test
+--dataset/data/test
 ```
 
 as well as corresponding GT is in (not necessary, but can be empty. You can placed the fisheye images to take up position.)
 ```
-dataset/gt/test
+--dataset/gt/test
 ```
 Update file paths in 
 ```
-flist/dataset/test.flist 
-flist/dataset/test_gt.flist 
+--flist/dataset/test.flist 
+--flist/dataset/test_gt.flist 
 ```
 
 run
