@@ -28,55 +28,43 @@ or
 --dataset\data\test
 --dataset\gt\test
 ```
+
+## Training
+Before training, make sure that the fisheye image and corresponding GT have been placed in 
+```
+--dataset/data/train
+--dataset/gt/train
+```
 After that, generate your image lists
 ```
 python dataset/flist.py
 ```
-
-## Training
-Before training, make sure that the fisheye image has been placed in 
-```
---dataset/data/train
-```
-
-as well as corresponding GT is in 
-```
---dataset/gt/train
-```
-Update file paths in 
+The update file paths is in 
 ```
 --flist/dataset/train.flist 
 --flist/dataset/train_gt.flist 
 ```
-
-run
+Finally, training network by
 ```
 python train.py
 ```
 
 ## Testing
 If you want to use our pre-train model, you can download [here](https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw). Extraction code: zv83
-
-Put the pre-train model in 
+Put the pre-trained model in 
 ```
 --FISH-Net\release_model\pennet4_dataset_square256
 ```
 
-placed test fisheye images in 
+placed test fisheye images and corresponding GT(not necessary, but can be empty. You can placed the fisheye images to take up position.) in 
 ```
 --dataset/data/test
-```
-
-as well as corresponding GT is in (not necessary, but can be empty. You can placed the fisheye images to take up position.)
-```
 --dataset/gt/test
 ```
-Update file paths in 
+Update file paths 
 ```
---flist/dataset/test.flist 
---flist/dataset/test_gt.flist 
+python dataset/flist.py
 ```
-
 run
 ```
 python test.py
