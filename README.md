@@ -28,6 +28,10 @@ or
 --dataset\data\test
 --dataset\gt\test
 ```
+After that, generate your image lists
+```
+python dataset/flist.py
+```
 
 ## Training
 Before training, make sure that the fisheye image has been placed in 
