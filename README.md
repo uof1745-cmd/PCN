@@ -49,7 +49,7 @@ python train.py
 ```
 
 ## Testing
-If you want to use our pre-train model, you can download [here](https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw)(Extraction code: zv83) or [Google Drive](https://drive.google.com/drive/folders/1EuyGLQ7luTWimmRetA4rs79bxu9Bxm6a?usp=sharing).
+If you want to use our pre-train model, you can download [Baidu](https://pan.baidu.com/s/1_vtoyewrq6nw7t2Of-NVsw)(Extraction code: zv83) or [Google Drive](https://drive.google.com/drive/folders/1EuyGLQ7luTWimmRetA4rs79bxu9Bxm6a?usp=sharing).
 
 Put the pre-trained model in 
 ```
